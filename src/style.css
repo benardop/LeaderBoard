@@ -43,9 +43,9 @@
   text-transform: none;
 }
 
- .scores div:nth-child(odd) {
-    background: #D3D3D3;
-  }
+.scores div:nth-child(odd) {
+  background: #d3d3d3;
+}
 
 .cl1 {
   padding: 2rem;
