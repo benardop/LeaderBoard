@@ -1,23 +1,6 @@
-body {
-    background: linear-gradient(46deg, #8ce2e0 0%, #e4e4a3 100%);
-  }
-  
   .h1 {
     font-size: 5rem;
     text-align: center;
-    text-shadow:
-      1px -1px 0 #767676,
-      -1px 2px 1px #737272,
-      -2px 4px 1px #767474,
-      -3px 6px 1px #787777,
-      -4px 8px 1px #7b7a7a,
-      -5px 10px 1px #7f7d7d,
-      -6px 12px 1px #828181,
-      -7px 14px 1px #868585,
-      -8px 16px 1px #8b8a89,
-      -9px 18px 1px #8f8e8d,
-      -10px 20px 1px #949392,
-      2px 2px 2px rgba(206, 89, 55, 0);
   }
   
   .page-wrapper {
@@ -60,13 +43,13 @@ body {
     text-transform: none;
   }
   
-  .scores div:nth-child(odd) {
+  /* .scores div:nth-child(odd) {
     background: linear-gradient(182deg, #14dccf 0%, #f3f30a 100%);
   }
   
   .scores div:nth-child(even) {
     background: linear-gradient(112deg, rgba(122, 20, 220, 0.87) 0%, #f30aee 66%);
-  }
+  } */
   
   .cl1 {
     padding: 2rem;
@@ -75,8 +58,8 @@ body {
   
   .cl1 button {
     margin-left: 1rem;
-    box-shadow: 3px 4px 0 0 #1564ad;
-    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    /* box-shadow: 3px 4px 0 0 #1564ad; */
+    /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
     background-color: #79bbff;
     border-radius: 5px;
     border: 1px solid #337bc4;
@@ -159,8 +142,8 @@ body {
   }
   
   #addNewScore {
-    box-shadow: 3px 4px 0 0 #1564ad;
-    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    /* box-shadow: 3px 4px 0 0 #1564ad; */
+    /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
     background-color: #79bbff;
     border-radius: 5px;
     border: 1px solid #337bc4;
