@@ -1,170 +1,172 @@
-  .h1 {
-    font-size: 5rem;
-    text-align: center;
-  }
-  
-  .page-wrapper {
-    display: flex;
-    justify-content: center;
-    column-gap: 3rem;
-  }
-  
-  .scores {
-    border: 1px solid black;
-  }
-  
-  .scores div {
-    padding: 0.5rem;
-  }
-  
-  .cl1 span {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 25px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #000;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-  }
-  
-  .scores div span {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #000;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-  }
-  
-  /* .scores div:nth-child(odd) {
+.h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.scores {
+  border: 1px solid black;
+}
+
+.scores div {
+  padding: 0.5rem;
+}
+
+.cl1 span {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.scores div span {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+/* .scores div:nth-child(odd) {
     background: linear-gradient(182deg, #14dccf 0%, #f3f30a 100%);
   }
-  
+
   .scores div:nth-child(even) {
     background: linear-gradient(112deg, rgba(122, 20, 220, 0.87) 0%, #f30aee 66%);
   } */
-  
-  .cl1 {
-    padding: 2rem;
-    padding-left: 0;
-  }
-  
-  .cl1 button {
-    margin-left: 1rem;
-    /* box-shadow: 3px 4px 0 0 #1564ad; */
-    /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
-    background-color: #79bbff;
-    border-radius: 5px;
-    border: 1px solid #337bc4;
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 12px 44px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #528ecc;
-  }
-  
-  .cl1 button:hover {
-    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-    background-color: #378de5;
-  }
-  
-  .cl1 button:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  .left-part {
-    width: 40%;
-  }
-  
-  .right-part {
-    width: 30%;
-  }
-  
-  .right-part h2 {
-    margin: 2rem;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-left: 0%;
-    margin-right: 0%;
-    font-size: 25px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #000;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-  }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    row-gap: 1rem;
-    padding: 0%;
-  }
-  
-  ul li:nth-child(1),
-  ul li:nth-child(2),
-  ul li input {
-    width: 100%;
-  }
-  
-  ul li input {
-    box-sizing: border-box;
-    padding: 5px;
-    font-size: 20px;
-    border-width: 1px;
-    border-color: #ccc;
-    background-color: #fff;
-    color: #000;
-    border-style: solid;
-    border-radius: 0;
-    box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
-    text-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
-  }
-  
-  .css-input:focus {
-    outline: none;
-  }
-  
-  #addNewScore {
-    /* box-shadow: 3px 4px 0 0 #1564ad; */
-    /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
-    background-color: #79bbff;
-    border-radius: 5px;
-    border: 1px solid #337bc4;
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    font-family: Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 7px 45px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #528ecc;
-  }
-  
-  #addNewScore:hover {
-    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-    background-color: #378de5;
-  }
-  
-  #addNewScore:active {
-    position: relative;
-    top: 1px;
-  }
-  
+
+.cl1 {
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.cl1 button {
+  margin-left: 1rem;
+
+  /* box-shadow: 3px 4px 0 0 #1564ad; */
+
+  /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #528ecc;
+}
+
+.cl1 button:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+
+.cl1 button:active {
+  position: relative;
+  top: 1px;
+}
+
+.left-part {
+  width: 40%;
+}
+
+.right-part {
+  width: 30%;
+}
+
+.right-part h2 {
+  margin: 2rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 1rem;
+  padding: 0%;
+}
+
+ul li:nth-child(1),
+ul li:nth-child(2),
+ul li input {
+  width: 100%;
+}
+
+ul li input {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 20px;
+  border-width: 1px;
+  border-color: #ccc;
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-radius: 0;
+  box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
+  text-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
+}
+
+.css-input:focus {
+  outline: none;
+}
+
+#addNewScore {
+  /* box-shadow: 3px 4px 0 0 #1564ad; */
+
+  /* background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%); */
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 7px 45px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #528ecc;
+}
+
+#addNewScore:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+
+#addNewScore:active {
+  position: relative;
+  top: 1px;
+}
