@@ -42,9 +42,9 @@ build/Release
 node_modules/
 jspm_packages/
 test.md
-.stylelintrc.json
-.hintrc
-.eslintrc.json
+#.stylelintrc.json
+#.hintrc
+#.eslintrc.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
