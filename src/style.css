@@ -82,6 +82,11 @@
   width: 40%;
 }
 
+#addScore:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+
 .right-part {
   width: 30%;
 }
@@ -100,11 +105,6 @@
   font-style: normal;
   font-variant: normal;
   text-transform: none;
-}
-
-#addNewScore:hover {
-  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-  background-color: #378de5;
 }
 
 ul {

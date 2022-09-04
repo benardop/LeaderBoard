@@ -1,9 +1,9 @@
 import './style.css';
-import getScores from './modules/getScores.js';
-import addNewScore from './modules/addNewScore.js';
+import getScores from './modules/getAllScores.js';
+import addScore from './modules/addScore.js';
 
 window.onload = getScores;
 
 document.getElementById('refresh').onclick = getScores;
-const btn = document.querySelector('#addNewScore');
-btn.onclick = addNewScore;
+const button = document.querySelector('#addNewScore');
+button.onclick = addScore;
