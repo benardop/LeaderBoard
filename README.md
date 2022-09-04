@@ -10,6 +10,9 @@ Microverse Module 02 Project: This educational project is to create a website th
 - WebPack
 - Linter
 
+## Live Demo
+[Live Demo Link](https://benardop.github.io/LeaderBoard/dist/)
+
 
 Please get your browser update.
 To get a local copy up and running follow these simple steps.
